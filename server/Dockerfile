@@ -13,6 +13,6 @@ RUN npm install
 COPY server.js .
 COPY config.js .
 COPY lib lib
-COPY certs certs
+#COPY certs certs
 
 CMD ["node", "/service/server.js"]
