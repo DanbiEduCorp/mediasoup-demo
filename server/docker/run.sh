@@ -8,6 +8,7 @@ export HTTPS_CERT_PRIVKEY=${HTTPS_CERT_PRIVKEY:="/service/certs/privkey.pem"}
 export MEDIASOUP_LISTEN_IP=${MEDIASOUP_LISTEN_IP:="0.0.0.0"}
 export MEDIASOUP_MIN_PORT=${MEDIASOUP_MIN_PORT:="2000"}
 export MEDIASOUP_MAX_PORT=${MEDIASOUP_MAX_PORT:="2020"}
+export MEDIASOUP_SRC=${MEDIASOUP_SRC:="/home/ec2-user/projects/mediasoup-demo"}
 
 # Valgrind related options.
 export MEDIASOUP_USE_VALGRIND=${MEDIASOUP_USE_VALGRIND:="false"}
