@@ -127,13 +127,13 @@ module.exports =
 					protocol    : 'udp',
 					ip          : process.env.MEDIASOUP_LISTEN_IP || '0.0.0.0',
 					announcedIp : process.env.MEDIASOUP_ANNOUNCED_IP,
-					port        : 44444
+					port        : process.env.ANNOUNCED_MIN_PORT
 				},
 				{
 					protocol    : 'tcp',
 					ip          : process.env.MEDIASOUP_LISTEN_IP || '0.0.0.0',
 					announcedIp : process.env.MEDIASOUP_ANNOUNCED_IP,
-					port        : 44444
+					port        : process.env.ANNOUNCED_MIN_PORT
 				}
 			]
 		},
